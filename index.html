@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- scripts to convert PDF to Img -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/1.9.623/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/1.9.623/pdf.worker.min.js"></script>
+    <!-- ./ scripts to convert PDF to Img -->
+
+</head>
+<body>
+    	
+    <!-- Uploading file -->
+    <canvas id="the-canvas" style="border:2px solid rgb(175, 98, 11)"></canvas>
+    <input id='pdf' type='file'/>
+
+    <!-- Display the result -->
+    <textarea id="result" rows="1" cols="100"></textarea>
+    <!-- ./ Display the result -->
+
+    <!-- ./Uploading file -->
+
+    <!-- scripts for decode qr-code-->
+    <script type="text/javascript" src="grid.js"></script>
+    <script type="text/javascript" src="version.js"></script>
+    <script type="text/javascript" src="detector.js"></script>
+    <script type="text/javascript" src="formatinf.js"></script>
+    <script type="text/javascript" src="errorlevel.js"></script>
+    <script type="text/javascript" src="bitmat.js"></script>
+    <script type="text/javascript" src="datablock.js"></script>
+    <script type="text/javascript" src="bmparser.js"></script>
+    <script type="text/javascript" src="datamask.js"></script>
+    <script type="text/javascript" src="rsdecoder.js"></script>
+    <script type="text/javascript" src="gf256poly.js"></script>
+    <script type="text/javascript" src="gf256.js"></script>
+    <script type="text/javascript" src="decoder.js"></script>
+    <script type="text/javascript" src="qrcode.js"></script>
+    <script type="text/javascript" src="findpat.js"></script>
+    <script type="text/javascript" src="alignpat.js"></script>
+    <script type="text/javascript" src="databr.js"></script>
+    <!-- ./ script for decode qr-code -->
+
+    <!-- convert file script -->
+    <script src="convert.js"></script>
+    <!-- ./convert file script -->
+
+    
+
+</body>
+</html>
